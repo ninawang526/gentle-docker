@@ -15,8 +15,8 @@ import wave
 from json import load
 from urllib2 import urlopen
 
-from util.paths import get_resource, get_datadir
-from util.cyst import Insist
+from gentle.util.paths import get_resource, get_datadir
+from gentle.util.cyst import Insist
 
 import gentle
 import redis
